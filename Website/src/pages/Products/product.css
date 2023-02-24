@@ -1,0 +1,24 @@
+.product-conatiner {
+  display: flex;
+  justify-content: space-between;
+}
+
+ul,
+li {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.img-container {
+  display: flex;
+  /* justify-content: space-between; */
+  /* height: 1000px; */
+  gap: 50px;
+  width: 100%;
+  margin-top: 50px;
+}
+
+.product-img {
+  max-width: 100%;
+}
